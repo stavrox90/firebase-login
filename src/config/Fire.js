@@ -1,15 +1,15 @@
 import firebase from 'firebase';
 
 const config = {
-  apiKey: 'AIzaSyBdWb6l1AC5jFKipbdz_cGp3JMfB20XIVs',
-  authDomain: 'react-step-form-279ea.firebaseapp.com',
-  databaseURL: 'https://react-step-form-279ea.firebaseio.com',
-  projectId: 'react-step-form-279ea',
-  storageBucket: '',
-  messagingSenderId: '203921885995',
-  appId: '1:203921885995:web:84d77c3c7f12cf428c936e',
-  measurementId: 'G-M9R970T517',
+  apiKey: "AIzaSyAR2f4dtSz9iuWaHz1MFGFSftw4f2mHaHo",
+  authDomain: "fir-login-7ab6e.firebaseapp.com",
+  databaseURL: "https://fir-login-7ab6e.firebaseio.com",
+  projectId: "fir-login-7ab6e",
+  storageBucket: "",
+  messagingSenderId: "813962820161",
+  appId: "1:813962820161:web:e1adfc94f8b311fbcc24c0",
+  measurementId: "G-Y1CMYDE1T8"
 };
 
-const fire = firebase.initializeApp (config);
+const fire = firebase.initializeApp(config);
 export default fire;
