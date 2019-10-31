@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import fire from '../config/Fire';
+import '../styles/login.css';
 
 class Login extends Component {
   constructor(props) {
@@ -45,19 +46,6 @@ class Login extends Component {
           <h1 style={{ fontWeight: "bold" }}>Welcome to Firelog</h1>
           <p className="center-text">A simple sign-up / login form using ReactJS and Firebase</p>
           <form>
-            <div className="username">
-              <label for="name">Username</label>
-              <input
-                value={this.state.username}
-                onChange={this.handleChange}
-                type="username"
-                name="username"
-                class="form-control"
-                id="exampleInputUsername1"
-                aria-describedby="emailHelp"
-                placeholder="Enter username"
-              />
-            </div>
             <div className="email">
               <label for="exampleInputEmail1">Email address</label>
               <input

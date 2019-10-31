@@ -5,7 +5,9 @@ import Home from './components/Home';
 import FirebaseLogo from './components/svg/firebaseLogo';
 import ReactLogo from './components/svg/reactLogo';
 
+
 import './App.css';
+import './styles/animations.css';
 
 class App extends Component {
   constructor(props) {
@@ -32,7 +34,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="App">
         <div className="logo">
           <FirebaseLogo />
           <ReactLogo />
