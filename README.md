@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple login/signup form using Firebase and ReactJS. I didn't use email and password validation to make it easier for end user to test my app.
 
 ## Available Scripts
 
